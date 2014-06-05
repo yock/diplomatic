@@ -5,7 +5,7 @@ require 'mina/rvm'
 
 set :domain, 'diplomatic.io'
 set :deploy_to, '/usr/share/nginx/site'
-set :repository, 'git://...'
+set :repository, 'git@github.com:yock/diplomatic.git'
 set :branch, 'master'
 
 set :shared_paths, ['config/database.yml', 'log']
@@ -13,6 +13,7 @@ set :user, 'myockey'
 set :ssh_options, '-A'
 
 task :environment do
+  invoke :'rvm:use[ruby-2.1.2@default]'
 end
 
 task :setup => :environment do
