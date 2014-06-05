@@ -7,7 +7,7 @@ describe 'Submit a command' do
       let(:command_json) { {"command" => {"text" => "A KIE -> MUN"}}.to_json }
       it 'returns http ok' do
         post '/commands', command_json, request_headers
-        expect(response_status).to eq(201)
+        expect(response.status).to eq(201)
       end
 
       it 'has an id' do

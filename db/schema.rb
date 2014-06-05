@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20140601205414) do
+ActiveRecord::Schema.define(version: 20140605194942) do
 
   create_table "commands", force: true do |t|
     t.string   "text"
@@ -24,6 +24,13 @@ ActiveRecord::Schema.define(version: 20140601205414) do
     t.string   "short_name"
     t.boolean  "supply_center"
     t.boolean  "supports_fleet"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
+
+  create_table "territories", force: true do |t|
+    t.string   "name"
+    t.string   "code"
     t.datetime "created_at"
     t.datetime "updated_at"
   end
