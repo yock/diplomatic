@@ -37,6 +37,7 @@ end
 
 group :test do
   gem 'rspec-rails', '~> 3.0.0.rc1'
+  gem 'factory_girl_rails'
   gem 'pry'
   gem 'pry-byebug'
 end

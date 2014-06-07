@@ -1,0 +1,242 @@
+territory:
+  -
+    name: North Atlantic Ocean
+    code: NAO
+  -
+    name: Norwegian Sea
+    code: NWG
+  -
+    name: Barents Sea
+    code: BAR
+  -
+    name: Irish Sea
+    code: IRI
+  -
+    name: English Channel
+    code: ENG
+  -
+    name: Mid-Atlantic Ocean
+    code: MAO
+  -
+    name: North Sea
+    code: NTH
+  -
+    name: Helgoland Bight
+    code: HEL
+  -
+    name: Skagerrak
+    code: SKA
+  -
+    name: Baltic Sea
+    code: BAL
+  -
+    name: Gulf of Bothnia
+    code: BOT
+  -
+    name: Gulf of Lyon
+    code: LYO
+  -
+    name: Western Mediterranean
+    code: WES
+  -
+    name: Tyrrhenian Sea
+    code: TYS
+  -
+    name: Ionian Sea
+    code: ION
+  -
+    name: Adriatic Sea
+    code: ADR
+  -
+    name: Aegean Sea
+    code: AEG
+  -
+    name: Wastern Mediterranean
+    code: EAS
+  -
+    name: Black Sea
+    code: BLA
+  -
+    name: St. Petersburg
+    code: STP
+  -
+    name: Finland
+    code: FIN
+  -
+    name: Sweden
+    code: SWE
+  -
+    name: Norway
+    code: NOR
+  -
+    name: Clyde
+    code: CLY
+  -
+    name: Edinburgh
+    code: EDI
+  -
+    name: Liverpool
+    code: LVP
+  -
+    name: Yorkshire
+    code: YOR
+  -
+    name: Wales
+    code: WAL
+  -
+    name: London
+    code: LON
+  -
+    name: Denmark
+    code: DEN
+  -
+    name: Portugal
+    code: POR
+  -
+    name: Spain
+    code: SPA
+  -
+    name: Gascony
+    code: GAS
+  -
+    name: Brest
+    code: BRE
+  -
+    name: Picardy
+    code: PIC
+  -
+    name: Paris
+    code: PAR
+  -
+    name: Burgundy
+    code: BUR
+  -
+    name: Marseilles
+    code: MAR
+  -
+    name: Belgium
+    code: BEL
+  -
+    name: Holland
+    code: HOL
+  -
+    name: Ruhr
+    code: RUH
+  -
+    name: Munich
+    code: MUN
+  -
+    name: Piedmont
+    code: PIE
+  -
+    name: Kiel
+    code: KIE
+  -
+    name: Tyrolia
+    code: TYR
+  -
+    name: Venice
+    code: VEN
+  -
+    name: Tuscany
+    code: TUS
+  -
+    name: Rome
+    code: ROM
+  -
+    name: Apulia
+    code: APU
+  -
+    name: Naples
+    code: NAP
+  -
+    name: Berlin
+    code: BER
+  -
+    name: Prussia
+    code: PRU
+  -
+    name: Silesia
+    code: SIL
+  -
+    name: Bohemia
+    code: BOH
+  -
+    name: Vienna
+    code: VIE
+  -
+    name: Trieste
+    code: TRI
+  -
+    name: Warsaw
+    code: WAR
+  -
+    name: Galicia
+    code: GAL
+  -
+    name: Budapest
+    code: BUD
+  -
+    name: Serbia
+    code: SER
+  -
+    name: Albania
+    code: ALB
+  -
+    name: Greece
+    code: GRE
+  -
+    name: Livonia
+    code: LVN
+  -
+    name: Moscow
+    code: MOS
+  -
+    name: Ukraine
+    code: UKR
+  -
+    name: Rumania
+    code: RUM
+  -
+    name: Bulgaria
+    code: BUL
+  -
+    name: Sevastopol
+    code: SEV
+  -
+    name: Constantinople
+    code: CON
+  -
+    name: Smyrna
+    code: SMY
+  -
+    name: Ankara
+    code: ANK
+  -
+    name: Armenia
+    code: ARM
+  -
+    name: Syria
+    code: SYR
+  -
+    name: North Africa
+    code: NAF
+  -
+    name: Tunis
+    code: TUN
+
+super_power:
+  -
+    name: Austria
+  -
+    name: England
+  -
+    name: France
+  -
+    name: Germany
+  -
+    name: Italy
+  -
+    name: Russia
+  -
+    name: Turkey

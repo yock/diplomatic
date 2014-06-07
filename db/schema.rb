@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20140605194942) do
+ActiveRecord::Schema.define(version: 20140607184724) do
 
   create_table "commands", force: true do |t|
     t.string   "text"
@@ -28,9 +28,22 @@ ActiveRecord::Schema.define(version: 20140605194942) do
     t.datetime "updated_at"
   end
 
+  create_table "super_powers", force: true do |t|
+    t.string   "name"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
+
   create_table "territories", force: true do |t|
     t.string   "name"
     t.string   "code"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
+
+  create_table "units", force: true do |t|
+    t.string   "unit_type"
+    t.integer  "territory_id"
     t.datetime "created_at"
     t.datetime "updated_at"
   end
