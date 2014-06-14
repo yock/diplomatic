@@ -11,7 +11,16 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20140607184724) do
+ActiveRecord::Schema.define(version: 20140608200803) do
+
+  create_table "authentications", force: true do |t|
+    t.string   "provider"
+    t.string   "uid"
+    t.string   "nickname"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+    t.integer  "user_id"
+  end
 
   create_table "commands", force: true do |t|
     t.string   "text"
@@ -44,6 +53,13 @@ ActiveRecord::Schema.define(version: 20140607184724) do
   create_table "units", force: true do |t|
     t.string   "unit_type"
     t.integer  "territory_id"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
+
+  create_table "users", force: true do |t|
+    t.string   "display_name"
+    t.string   "email"
     t.datetime "created_at"
     t.datetime "updated_at"
   end

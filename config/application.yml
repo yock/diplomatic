@@ -1,0 +1,13 @@
+DEFAULTS: &DEFAULTS
+  twitter_key: pTfOofKMUpxYZyeDHdPaQ
+  twitter_secret: JipQejgXexmg74I0ZWZ2j3KAHGB79eaIDCKTiJr8I
+
+development:
+  <<: *DEFAULTS
+
+test:
+  <<: *DEFAULTS
+
+production:
+  <<: *DEFAULTS
+  
