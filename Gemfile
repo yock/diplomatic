@@ -25,6 +25,7 @@ gem 'rabl'
 gem 'oj'
 
 gem 'omniauth-twitter'
+gem 'doorkeeper'
 
 group :test do
   gem 'rspec-rails', '~> 3.0.0.rc1'
@@ -35,6 +36,7 @@ end
 group :development, :test do
   gem 'pry'
   gem 'pry-byebug'
+  gem 'oauth2'
 end
 
 gem 'mina'

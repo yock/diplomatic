@@ -1,4 +1,5 @@
 Diplomacy::Application.routes.draw do
+  use_doorkeeper
   resources :commands
   resources :units
 
