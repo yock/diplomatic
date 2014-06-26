@@ -1,4 +1,5 @@
 class CommandsController < ApplicationController
+  doorkeeper_for :all
 
   def show
     @command = Command.find(params.require('id'))
