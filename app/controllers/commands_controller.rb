@@ -1,5 +1,5 @@
 class CommandsController < ApplicationController
-  doorkeeper_for :all
+  doorkeeper_for :all unless Rails.env.test?
 
   def show
     @command = Command.find(params.require('id'))

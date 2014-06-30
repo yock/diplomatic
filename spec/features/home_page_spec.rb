@@ -9,6 +9,7 @@ feature 'Home page' do
   end
   context 'when signed in' do
     scenario 'has a sign out link' do
+      feature_sign_in
       visit '/'
       expect(page).to have_link('Sign out')
     end
