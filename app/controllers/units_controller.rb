@@ -1,5 +1,7 @@
-class UnitsController < ApplicationController
-  def index
-    @units = Unit.all
+module API
+  class UnitsController < API::EndpointController
+    def index
+      @units = Unit.all
+    end
   end
 end

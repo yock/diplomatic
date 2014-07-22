@@ -1,6 +1,6 @@
 DEFAULTS: &DEFAULTS
-  twitter_key: pTfOofKMUpxYZyeDHdPaQ
-  twitter_secret: JipQejgXexmg74I0ZWZ2j3KAHGB79eaIDCKTiJr8I
+  twitter_key: WycY9agKD1UlKRMDwdowzAavr
+  twitter_secret: 5b6Tvzb5D6h33llpZmlMyn5TdVhGGYNCJrUruQLx8x7hX3B1e8
 
 development:
   <<: *DEFAULTS

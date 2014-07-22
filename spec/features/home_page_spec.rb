@@ -7,10 +7,4 @@ feature 'Home page' do
       expect(page).to have_link('Sign in with Twitter')
     end
   end
-  context 'when signed in' do
-    scenario 'has a sign out link' do
-      visit '/'
-      expect(page).to have_link('Sign out')
-    end
-  end
 end

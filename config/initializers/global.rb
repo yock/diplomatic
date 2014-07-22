@@ -2,14 +2,17 @@ module Global
   # Allows accessing config variables from application.yml like so:
   #   Global[:key]
   def self.[](key)
-    unless @config
-      raw_config = File.read(File.join(Rails.root, 'config', 'application.yml'))
-      @config = YAML.load(raw_config)[Rails.env].symbolize_keys
-    end
-    @config[key]
+    config[key]
   end
 
-  def self.[]=(key, value)
-    @config[key.to_sym] = value
+  private
+
+  def self.config
+    @config ||= load_config
+  end
+
+  def self.load_config
+    yaml = File.read(File.join(Rails.root, 'config', 'application.yml'))
+    @config = YAML.load(yaml)[Rails.env].symbolize_keys
   end
 end

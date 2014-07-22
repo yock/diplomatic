@@ -1,0 +1,5 @@
+<%= simple_form_for @user, url: registration_path, html: { class: 'form-vertical' } do |f| %>
+  <%= f.input :display_name %>
+  <%= f.input :email %>
+  <%= f.button :submit %>
+<% end %>

@@ -1,4 +1,8 @@
 class Command < ActiveRecord::Base
+  belongs_to :player
+
+  validates :player, presence: true
+
   def parse
     position = :unit_type
     text.split(' ').each do |token|

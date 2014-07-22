@@ -1,3 +1,5 @@
 class User < ActiveRecord::Base
-  has_many :authentication_providers
+  has_many :authentications
+
+  validates :display_name, :email, presence: true
 end
